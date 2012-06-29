@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class View;
 
-@interface StarAppDelegate : UIResponder <UIApplicationDelegate>
+@interface StarAppDelegate : UIResponder <UIApplicationDelegate>{
+    View *view;
+    UIWindow *window; 
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
+                     
 @end

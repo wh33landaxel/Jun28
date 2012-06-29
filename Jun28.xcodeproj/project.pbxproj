@@ -13,6 +13,10 @@
 		A61EA3CD159CE00E0030A1CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61EA3CB159CE00E0030A1CB /* InfoPlist.strings */; };
 		A61EA3CF159CE00E0030A1CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EA3CE159CE00E0030A1CB /* main.m */; };
 		A61EA3D3159CE00E0030A1CB /* StarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EA3D2159CE00E0030A1CB /* StarAppDelegate.m */; };
+		A61EA3DB159CE0370030A1CB /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EA3DA159CE0370030A1CB /* StarView.m */; };
+		A61EA3E2159CF6BF0030A1CB /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EA3E1159CF6BF0030A1CB /* View.m */; };
+		A61EA3E8159D220B0030A1CB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A61EA3E7159D220B0030A1CB /* Icon.png */; };
+		A61EA3EF159D576C0030A1CB /* StarView2.m in Sources */ = {isa = PBXBuildFile; fileRef = A61EA3EE159D576C0030A1CB /* StarView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,19 @@
 		A61EA3C2159CE00E0030A1CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A61EA3C4159CE00E0030A1CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A61EA3C6159CE00E0030A1CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A61EA3CA159CE00E0030A1CB /* Jun28-Info.plist */ = {isa = PBXFileReference; path = "Jun28-Info.plist"; sourceTree = "<group>"; };
+		A61EA3CA159CE00E0030A1CB /* Jun28-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jun28-Info.plist"; sourceTree = "<group>"; };
 		A61EA3CC159CE00E0030A1CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A61EA3CE159CE00E0030A1CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A61EA3D0159CE00E0030A1CB /* Jun28-Prefix.pch */ = {isa = PBXFileReference; path = "Jun28-Prefix.pch"; sourceTree = "<group>"; };
-		A61EA3D1159CE00E0030A1CB /* StarAppDelegate.h */ = {isa = PBXFileReference; path = StarAppDelegate.h; sourceTree = "<group>"; };
+		A61EA3D0159CE00E0030A1CB /* Jun28-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jun28-Prefix.pch"; sourceTree = "<group>"; };
+		A61EA3D1159CE00E0030A1CB /* StarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarAppDelegate.h; sourceTree = "<group>"; };
 		A61EA3D2159CE00E0030A1CB /* StarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarAppDelegate.m; sourceTree = "<group>"; };
+		A61EA3D9159CE0370030A1CB /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		A61EA3DA159CE0370030A1CB /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
+		A61EA3E0159CF6BF0030A1CB /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A61EA3E1159CF6BF0030A1CB /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		A61EA3E7159D220B0030A1CB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A61EA3ED159D576C0030A1CB /* StarView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView2.h; sourceTree = "<group>"; };
+		A61EA3EE159D576C0030A1CB /* StarView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,12 @@
 				A61EA3D1159CE00E0030A1CB /* StarAppDelegate.h */,
 				A61EA3D2159CE00E0030A1CB /* StarAppDelegate.m */,
 				A61EA3C9159CE00E0030A1CB /* Supporting Files */,
+				A61EA3D9159CE0370030A1CB /* StarView.h */,
+				A61EA3DA159CE0370030A1CB /* StarView.m */,
+				A61EA3E0159CF6BF0030A1CB /* View.h */,
+				A61EA3E1159CF6BF0030A1CB /* View.m */,
+				A61EA3ED159D576C0030A1CB /* StarView2.h */,
+				A61EA3EE159D576C0030A1CB /* StarView2.m */,
 			);
 			path = Jun28;
 			sourceTree = "<group>";
@@ -82,6 +99,7 @@
 		A61EA3C9159CE00E0030A1CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A61EA3E7159D220B0030A1CB /* Icon.png */,
 				A61EA3CA159CE00E0030A1CB /* Jun28-Info.plist */,
 				A61EA3CB159CE00E0030A1CB /* InfoPlist.strings */,
 				A61EA3CE159CE00E0030A1CB /* main.m */,
@@ -143,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A61EA3CD159CE00E0030A1CB /* InfoPlist.strings in Resources */,
+				A61EA3E8159D220B0030A1CB /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +174,9 @@
 			files = (
 				A61EA3CF159CE00E0030A1CB /* main.m in Sources */,
 				A61EA3D3159CE00E0030A1CB /* StarAppDelegate.m in Sources */,
+				A61EA3DB159CE0370030A1CB /* StarView.m in Sources */,
+				A61EA3E2159CF6BF0030A1CB /* View.m in Sources */,
+				A61EA3EF159D576C0030A1CB /* StarView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
